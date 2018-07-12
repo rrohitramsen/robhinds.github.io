@@ -1,7 +1,6 @@
 # Site settings
-title: Rob Hinds
-twitter_username: rob_hinds
-name: Rob Hinds
+title: Rohit Kumar CV
+name: Rohit Kumar
 
 # Build settings
 markdown: kramdown
@@ -10,101 +9,94 @@ markdown: kramdown
 #Links that will appear in the navbar
 primarylinks:
  - title: Blog
-   url: http://automateddeveloper.blogspot.com/
+   url: http://www.tutre.com/
  - title: GitHub
-   url: https://github.com/robhinds
- - title: StackOverflow
-   url: http://stackoverflow.com/users/258813/rhinds
- - title: DZone
-   url: https://dzone.com/users/899489/rhinds.html
+   url: https://github.com/rrohitramsen
+ - title: Medium
+   url: https://medium.com/@rrohit.ramsen
  - title: LinkedIn
-   url: https://www.linkedin.com/pub/rob-hinds/21/361/3b1
+   url: https://www.linkedin.com/in/rohit-kumar-76622116/
 
 #Any buzzword skills you want to include
 skills:
- - Groovy
- - Spring MVC
- - Spring Boot
- - Gradle
  - Java
- - JPA
- - SQL
+ - Apache Spark
+ - Apache Kafka
+ - Spring Boot
+ - Data Structure & Algorithm
+ - AWS - EC2, SQS, Elastic Cache, EMR, SQS, S3, Lamda
+ - Scala
+ - Data Streaming
+ - Serverless
  - REST
- - Tech Architecture
+ - Mysql, Mongo DB, Neo4j, Cassandra
+ - Software Design
+ - Microservices
+ - Git
 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
 blogfeed: http://automateddeveloper.blogspot.com/feeds/posts/default?alt=rss
 
 #Work experience is required
 roles:
- - title: Senior Engineer
-   start: 2016
+ - title: Associate Technology Specialist
+   start: Feb 2017
    end: Ongoing
-   employer: Emerald Street Ventures
-   description: Emerald Street Ventures was established as an incubator vehicle for the development of a number of software and legal-tech projects, and a rapidly growing, London-based start-up using innovative technologies to revolutionise and change the software and legal-tech landscape. Working with a range of cutting edge technologies and techniques including Scala, Cassandra, CoreOS, a variety of Machine Learning techniques.
- - title: Senior Engineer
-   start: 2012
-   end: 2016
-   employer: Covestor
-   description: Covestor is an investment marketplace startup that was successfully acquired by Interactive Brokers in 2015. <br/> I am a senior engineer working closely with the CTO, working across the full-stack, I am involved in all aspects of the technology including the website and back-end services.
- - title: Associate Manager
-   start: 2005
-   end: 2012
-   employer: Accenture
-   description: A range of functional and technical roles, primarily working on client sites in Financial Services.
+   employer: Synechron Technologies
+   client: London Stock Exchange, UBS, London
+   description: Developed Push Notification on API using AWS Redis Pub Sub and achieved real time updates for clients and reduced data base load.
+                Developed Authentication Service using AWS Cognito JWT which is used in securing and authorising other micro services
+                Developed static data cache using AWS Elastic Cache which improved application startup time and optimised static data loading.
+                Developed low cost and Server-less data pipeline using AWS lamda, S3 and SQS
+                Developed and Standardise API request, response, logging, status and response codes. Which helped in improving communication b/w API and clients, ease of integration and improved tracking of issues and status.
+                Developed Entity Management framework. Which helped in reducing testing and development effort of static data rest APIs by 60% and also enforces Restful APIs best practices.
+                Developed Junit template for rest APIs. Which helped in reducing development effort for other rest APIs and also improved code coverage.
+                Consulted with project managers and clients regarding optimal architecture and solutions to utilise in project development
+                Worked on MiFID􀆸 II regulatory requirements. Developed front office eligibility micro service.
+                Streamlined the Json schemas for all DTOs for the project and replaced all java DTO and aligned the APIs with Json schema generated DTOs.
+                Developed and presented POC on data streaming job using Kafka, Spark and Cassandra.
+ - title: Technology Lead
+   start: Feb 2016
+   end: Dec 2016
+   employer: Ephesoft Inc.
+   description: Universe Analytics - Extract meaning from unstructured content to predict future value of investments, identify fraud, enable eDiscovery, uncover new opportunities, and make informed decisions.
+                Designed & Developed Data Relationship, Data Quality and Data Streaming Jobs using Apache Spark, Kafka, Graph, Mongo DB and Java.
+                Data relationship job creates undirected graph of documents which helps in creating relationships, performing queries and driving new relationships between the documents. This graph plays key role in driving other changes on platform.
+                Designed & Developed Automation testing framework which helped the testing team in computing page per minute stats for the application
+ - title: Freelancing
+   start: June 2014
+   end: Jan 2016
+   employer: Farlex Pharmaceuticals Pvt. Ltd
+   description: Researched and developed good understanding of social graph, graph database, and recommender system
+                Designed & Developed recommendation service, this service feeds the user with friends and other data based on the user social graph
+                Used Neo4j graph database to store user social graph and to recommend users
+                Designed and developed user profile service, user service, and user graph service
 
 #Education is required
 education:
- - level: Bachelor of Science (B.Sc.)
-   date: 2003
-   subject: Artificial Intelligence and Computer Science
-   school: University of Birmingham
-
-#This section is optional (as is the image link below)
-coursera:
-   profileurl: https://www.coursera.org/user/i/c6362b4056f755a04bef6a791a62102b
-   courses:
-    - title: Functional Programming Principles in Scala
-      link: https://www.coursera.org/course/progfun
-      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
-      date: September 16, 2013
-    - title: Algorithms Design and Analysis, Part 1
-      link: https://www.coursera.org/course/progfun
-      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/algo/small-icon.hover.png
-      date: April 28, 2014
+- level: Master of Computer Application (MCA)
+   date: 2007 - 2010
+   subject: Programming, Design, Data Structure & Algorithms
+   school: Maharshi Dayanand University
+ - level: Bachelor of Science Computer Application (B.Sc. CA) 
+   date: 2004 - 2007
+   subject: C, Data base and Computer Science
+   school: Kurukshetra University Kurukshetra
 
 #List of interesting Github repo/projects to include - optional
 github:
- - robhinds/learning-neural-networks
- - robhinds/akka-http-rest-api-sample
- - robhinds/twitter-sentiment-analysis
- - robhinds/spring-reactor-twitter
- - robhinds/microservices
- - robhinds/spring-social-geeklist
- - robhinds/spring-social-stackoverflow
- - robhinds/food2vec
- - robhinds/SpringMongoIntegrationExample
- - robhinds/SpringNeo4JWebApp
- - robhinds/AndroidChuckQuiz
- - robhinds/AndroidRssReader
-
-#Stackoverflow flair is optional
-stackoverflow:
-   profileurl: http://stackoverflow.com/users/258813/rhinds
-   flairimageurl: http://stackoverflow.com/users/flair/258813.png
-
-#Mobile apps section is optional
-apps:
- - name: Chuck the Quiz
-   platform: Android
-   url: https://play.google.com/store/apps/details?id=com.tmm.android.chuck&feature=search_result#?t=W251bGwsMSwxLDEsImNvbS50bW0uYW5kcm9pZC5jaHVjayJd
-   description: A basic early Android app (open sourced)
+ - rrohitramsen/firehose
+ - rrohitramsen/spring-boot-oauth2-jwt-swagger-ui
+ - rrohitramsen/gameoflife
+ - rrohitramsen/ems
+ - rrohitramsen/aws_jwt_cognito
+ - rrohitramsen/JPStockMarketRepository
+ - rrohitramsen/ticket_system
+ - rrohitramsen/returns_calculator
+ - rrohitramsen/dynamic_programming
+ - rrohitramsen/Graph
+ - rrohitramsen/recursion
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
-   <strong>JVM</strong>: I am experienced in a variety of Java API’s and frameworks. I have recently worked with Spring 4, Spring Boot, JPA (Hibernate and EclipseLink) in addition to others.  In my current role Groovy is the primary language used - and I am familiar with many of the languages features and quirks (including writing <a target='_blank' href="https://dzone.com/articles/functional-programming-groovy">Functional Programming style groovy</a>). <br/><br/>
-   <strong>Web Development</strong>: My server side web development experience has largely been based on the Spring MVC framework (although current role uses ColdFusion for server side web stack). I have also worked with some client side technology, having used jQuery, Bootstrap, LESS, SASS and have also experimented with other interesting technologies such as Backbone/Underscore/Require.<br/><br/>
-   <strong>Development Control</strong>: I have a good knowledge of application life-cycle management and have worked with SVN, Git, Maven, Gradle, Sonar and Jenkins. I have experience with an array of testing tools and technologies.<br/><br/>
-   I have also gained experience and knowledge of other technologies from several side projects and research that I have undertaken in my free time, including Android, a variety of social APIs (Twitter etc) and cloud platforms such as CloudFoundry/OpenShift/AppFog/Parse. <br/><br/>
-   As part of Nerdability, I created, and am now primary contributor to, two Spring projects - <a target='_blank' href="https://github.com/robhinds/spring-social-geeklist">Spring-Social-Geeklist</a> and <a target='_blank' href="https://github.com/nerdability/spring-social-khan-academy">Spring-Social-Khan-Academy</a>, which provide core integration with those third-party APIs on top of the Spring Social framework. They are both listed as community projects: <a target='_blank' href="http://projects.spring.io/spring-social/">http://projects.spring.io/spring-social/</a>. <br/><br/>
-   I write a blog covering technical and opinion articles that can be found here: <a target='_blank' href="http://automateddeveloper.blogspot.com/">automateddeveloper.blogspot.com</a> (I am also a <a target='_blank' href="https://dzone.com/users/899489/rhinds.html">DZone MVB</a>)
+   <strong>Apache Spark and Kafka </strong>: I am experienced in Apache Spark and Kafa and developed data streaming, data quality and data realtionships.
