@@ -75,13 +75,13 @@ roles:
 #Education is required
 education:
 - level: Master of Computer Application (MCA)
-   date: 2010
-   subject: Programming, Design, Data Structure & Algorithms
-   school: Maharshi Dayanand University
- - level: Bachelor of Science Computer Application (B.Sc. CA) 
-   date: 2007
-   subject: C, Data base and Computer Science
-   school: Kurukshetra University Kurukshetra
+  date: 2010
+  subject: Programming, Design, Data Structure & Algorithms
+  school: Maharshi Dayanand University
+- level: Bachelor of Science Computer Application (B.Sc. CA) 
+  date: 2007
+  subject: C, Data base and Computer Science
+  school: Kurukshetra University Kurukshetra
 
 #List of interesting Github repo/projects to include - optional
 github:
