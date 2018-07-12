@@ -39,11 +39,10 @@ blogfeed: http://www.tutre.com/
 
 #Work experience is required
 roles:
- - title: Associate Technology Specialist
+ - title: Associate Technology Specialist (London Stock Exchange Group, UBS)
    start: Feb 2017
    end: Ongoing
    employer: Synechron Technologies
-   client: London Stock Exchange, UBS, London
    description: Developed Push Notification on API using AWS Redis Pub Sub and achieved real time updates for clients and reduced data base load.
                 Developed Authentication Service using AWS Cognito JWT which is used in securing and authorising other micro services
                 Developed static data cache using AWS Elastic Cache which improved application startup time and optimised static data loading.
@@ -71,6 +70,24 @@ roles:
                 Designed & Developed recommendation service, this service feeds the user with friends and other data based on the user social graph
                 Used Neo4j graph database to store user social graph and to recommend users
                 Designed and developed user profile service, user service, and user graph service
+ - title: Software Engineer
+   start: July 2012
+   end: June 2014
+   employer: RBS India Development Centre, Gurgaon
+   description: Developed new applications, components, and functionality to existing systems
+                Involved in accurately providing estimated development times
+                Developed new functionalities, both back-end and front-end
+                Analyzed data and conducted compatibility/ quality assurance testing
+                Investigated alternate solutions and implemented better solutions
+ - title: Software Engineer
+   start: Oct 2010
+   end: July 2012
+   employer: Aricent Group, Gurgaon
+   description: Designed and developed S6a and Sh interface based on standards and specifications such as 3GPP, LTE, and IMS using Java
+                Designed and implemented test cases using JUnit
+                Designed Detailed Function Specification (DFS), Unit Test Plan (UTP), and Integration Test Plan (ITP)
+                Engaged in code review, configuration, and installation of HSS on UNIX/ Solaris machine
+                Assisted team members on their assigned tasks
 
 #Education is required
 education:
@@ -99,4 +116,4 @@ github:
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
-   <strong>Apache Spark and Kafka </strong>: I am experienced in Apache Spark and Kafa and developed data streaming, data quality and data realtionships. <br/><br/>
+   <strong>Apache Spark and Kafka </strong>: I am experienced in Apache Spark and Kafka and developed data streaming, data quality and data realtionships. <br/><br/>
