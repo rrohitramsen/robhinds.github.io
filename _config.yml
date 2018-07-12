@@ -39,10 +39,10 @@ blogfeed: http://www.tutre.com/
 
 #Work experience is required
 roles:
- - title: Associate Technology Specialist (London Stock Exchange Group, UBS)
+ - title: Associate Technology Specialist
    start: Feb 2017
    end: Ongoing
-   employer: Synechron Technologies
+   employer: Synechron Technologies(London Stock Exchange Group, UBS)
    description: Developed Push Notification on API using AWS Redis Pub Sub and achieved real time updates for clients and reduced data base load.
                 Developed Authentication Service using AWS Cognito JWT which is used in securing and authorising other micro services
                 Developed static data cache using AWS Elastic Cache which improved application startup time and optimised static data loading.
