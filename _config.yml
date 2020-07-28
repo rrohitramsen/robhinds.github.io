@@ -40,6 +40,8 @@ skills:
  - Recommender System
  - Jira
  - Jenkins
+ - Influx
+ - Grafana
 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
 blogfeed: http://www.tutre.com/
@@ -47,9 +49,20 @@ blogfeed: http://www.tutre.com/
 #Work experience is required
 roles:
 
+ - title: Staff Software Engineer
+   start: Feb 20
+   end: Ongoing
+   employer: Expedia Group
+   description: Opex-Hub - Failed Customer Interactions
+                Design and Developed user time series events data aggregation service
+                Implemented data base migration and changes using Liquibase
+                Design and Developed user eCommerce funnel data computation engine
+                Developed API's for COVID-19 related defects and incidents reporting
+                Design and Developed application audit history service
+
  - title: Technology Specialist
    start: Jan 19
-   end: ongoing
+   end: Feb 20
    employer: Synechron Technologies - HSBC
    description: Design and Developed data aggregation service using Graph.
                 Design and Developed Event driven notifications between micro services using Kafka.
